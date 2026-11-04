@@ -1,0 +1,26 @@
+# Personal Mini-Toolkit Plan
+
+## 1. Chosen Tools
+1. **Interactive Calculator**: Performs addition, subtraction, multiplication, and division between two numbers.
+2. **Dynamic To-Do List**: Allows users to view, add, and remove tasks from an active task list that updates while running.
+3. **Number Guessing Game**: A game where the user guesses a secret random number between 1 and 10 with loop-driven feedback.
+
+## 2. Tool Descriptions
+- **Interactive Calculator**: Takes two numerical inputs from the user and a math operator, computes the result using conditionals, and displays it via an f-string.
+- **Dynamic To-Do List**: Stores tasks in a mutable Python list, allowing users to view current tasks, add new items, or delete finished items dynamically.
+- **Number Guessing Game**: Generates a target number and uses a `while` loop with conditional hints ("Too high" / "Too low") until the user guesses correctly.
+
+## 3. Exact Menu Text
+==============================
+      PERSONAL MINI-TOOLKIT
+==============================
+1. Interactive Calculator
+2. Dynamic To-Do List
+3. Number Guessing Game
+4. Quit Toolkit
+------------------------------
+
+## 4. Concepts Used per Tool
+- **Calculator**: Conditionals (if/elif/else), arithmetic operators, f-strings.
+- **To-Do List**: Lists (append, remove, indexing), loops (for loops for displaying), conditionals, input/output.
+- **Number Guessing Game**: While loops, conditional comparisons, random module, f-strings.
